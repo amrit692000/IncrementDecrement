@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
 
         setContent {
            // App()
+
+           //App()
+//>>>>>>> 322cf42 (initial commit)
             IncremntDecement()
         }
     }
@@ -36,6 +39,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun AppAndroidPreview() {
    // App()
+    IncremntDecement()
 }
 @Composable
 fun IncremntDecement(){
